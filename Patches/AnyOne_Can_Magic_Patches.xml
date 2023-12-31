@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Rimhammer - The End Times - Magic</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>//TraitDef[defName = "RH_TET_SigmarTrait"]/commonality</xpath>
+					<value>
+						<commonality>0.03</commonality>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>//TraitDef[defName = "RH_TET_UlricTrait"]/commonality</xpath>
+					<value>
+						<commonality>0.03</commonality>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>//TraitDef[defName = "RH_TET_ShallyaTrait"]/commonality</xpath>
+					<value>
+						<commonality>0.03</commonality>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>//TraitDef[defName = "RH_TET_LoreOfBeastsTrait"]/commonality</xpath>
+					<value>
+						<commonality>0.05</commonality>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>//TraitDef[defName = "RH_TET_LoreOfDeathTrait"]/commonality</xpath>
+					<value>
+						<commonality>0.05</commonality>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>//TraitDef[defName = "RH_TET_LoreOfWildTrait"]/commonality</xpath>
+					<value>
+						<commonality>0.05</commonality>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>//TraitDef[defName = "RH_TET_LoreOfShadowTrait"]/commonality</xpath>
+					<value>
+						<commonality>0.05</commonality>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>//TraitDef[defName = "RH_TET_LoreOfTzeentchTrait"]/commonality</xpath>
+					<value>
+						<commonality>0.05</commonality>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>//TraitDef[defName = "RH_TET_LoreOfFireTrait"]/commonality</xpath>
+					<value>
+						<commonality>0.05</commonality>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>//TraitDef[defName = "RH_TET_LoreOfHeavensTrait"]/commonality</xpath>
+					<value>
+						<commonality>0.05</commonality>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>//TraitDef[defName = "RH_TET_LoreOfMetalTrait"]/commonality</xpath>
+					<value>
+						<commonality>0.05</commonality>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>//TraitDef[defName = "RH_TET_LoreOfLifeTrait"]/commonality</xpath>
+					<value>
+						<commonality>0.05</commonality>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>//TraitDef[defName = "RH_TET_LoreOfLightTrait"]/commonality</xpath>
+					<value>
+						<commonality>0.05</commonality>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>//TraitDef[defName = "RH_TET_LoreOfNurgleTrait"]/commonality</xpath>
+					<value>
+						<commonality>0.05</commonality>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>//TraitDef[defName = "RH_TET_LoreOfChaosUndividedTrait"]/commonality</xpath>
+					<value>
+						<commonality>0.05</commonality>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>//TraitDef[defName = "RH_TET_LoreOfSlaaneshTrait"]/commonality</xpath>
+					<value>
+						<commonality>0.05</commonality>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>//TraitDef[defName = "RH_TET_LoreOfHighTrait"]/commonality</xpath>
+					<value>
+						<commonality>0.05</commonality>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>//TraitDef[defName = "RH_TET_LoreOfPlagueTrait"]/commonality</xpath>
+					<value>
+						<commonality>0.05</commonality>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>//TraitDef[defName = "RH_TET_LoreOfGreatMawTrait"]/commonality</xpath>
+					<value>
+						<commonality>0.05</commonality>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>//TraitDef[defName = "RH_TET_LoreOfWarpTrait"]/commonality</xpath>
+					<value>
+						<commonality>0.05</commonality>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>//TraitDef[defName = "RH_TET_LoreOfStealthTrait"]/commonality</xpath>
+					<value>
+						<commonality>0.05</commonality>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>//TraitDef[defName = "RH_TET_WitchHunterTrait"]/commonality</xpath>
+					<value>
+						<commonality>0.05</commonality>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	
+</Patch>
